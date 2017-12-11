@@ -13,6 +13,7 @@
 		9940DF251FDDB3F700D98300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9940DF231FDDB3F700D98300 /* Main.storyboard */; };
 		9940DF271FDDB3F700D98300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9940DF261FDDB3F700D98300 /* Assets.xcassets */; };
 		9940DF2A1FDDB3F700D98300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9940DF281FDDB3F700D98300 /* LaunchScreen.storyboard */; };
+		9953136B1FDEA2A200A6858D /* WalletExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953136A1FDEA2A200A6858D /* WalletExampleUITests.swift */; };
 		9973D0961FDE7EC2001B713C /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9973D0951FDE7EC2001B713C /* TransactionsViewController.swift */; };
 		997B3C421FDE9DDF00BC84C0 /* Ark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997B3C411FDE9DDF00BC84C0 /* Ark.framework */; };
 		9995FC4B1FDDBA040077CE0F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9995FC4A1FDDBA040077CE0F /* Alamofire.framework */; };
@@ -20,6 +21,16 @@
 		9995FC4F1FDDBA090077CE0F /* then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9995FC4E1FDDBA090077CE0F /* then.framework */; };
 		9995FC511FDDBA0C0077CE0F /* ws.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9995FC501FDDBA0C0077CE0F /* ws.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9953136D1FDEA2A200A6858D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9940DF141FDDB3F700D98300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9940DF1B1FDDB3F700D98300;
+			remoteInfo = WalletExample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		9995FC3F1FDDB79D0077CE0F /* Embed Frameworks */ = {
@@ -43,6 +54,9 @@
 		9940DF261FDDB3F700D98300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9940DF291FDDB3F700D98300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9940DF2B1FDDB3F700D98300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		995313681FDEA2A200A6858D /* WalletExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9953136A1FDEA2A200A6858D /* WalletExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletExampleUITests.swift; sourceTree = "<group>"; };
+		9953136C1FDEA2A200A6858D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9973D0951FDE7EC2001B713C /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		997B3C411FDE9DDF00BC84C0 /* Ark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ark.framework; path = Carthage/Build/iOS/Ark.framework; sourceTree = "<group>"; };
 		9995FC361FDDB6BC0077CE0F /* then.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = then.framework; path = ../Carthage/Build/iOS/then.framework; sourceTree = "<group>"; };
@@ -68,6 +82,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		995313651FDEA2A200A6858D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				9940DF1E1FDDB3F700D98300 /* WalletExample */,
+				995313691FDEA2A200A6858D /* WalletExampleUITests */,
 				9940DF1D1FDDB3F700D98300 /* Products */,
 				9995FC291FDDB5BB0077CE0F /* Frameworks */,
 			);
@@ -84,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				9940DF1C1FDDB3F700D98300 /* WalletExample.app */,
+				995313681FDEA2A200A6858D /* WalletExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +124,15 @@
 				9940DF2B1FDDB3F700D98300 /* Info.plist */,
 			);
 			path = WalletExample;
+			sourceTree = "<group>";
+		};
+		995313691FDEA2A200A6858D /* WalletExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9953136A1FDEA2A200A6858D /* WalletExampleUITests.swift */,
+				9953136C1FDEA2A200A6858D /* Info.plist */,
+			);
+			path = WalletExampleUITests;
 			sourceTree = "<group>";
 		};
 		9995FC291FDDB5BB0077CE0F /* Frameworks */ = {
@@ -141,6 +173,24 @@
 			productReference = 9940DF1C1FDDB3F700D98300 /* WalletExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		995313671FDEA2A200A6858D /* WalletExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995313711FDEA2A200A6858D /* Build configuration list for PBXNativeTarget "WalletExampleUITests" */;
+			buildPhases = (
+				995313641FDEA2A200A6858D /* Sources */,
+				995313651FDEA2A200A6858D /* Frameworks */,
+				995313661FDEA2A200A6858D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9953136E1FDEA2A200A6858D /* PBXTargetDependency */,
+			);
+			name = WalletExampleUITests;
+			productName = WalletExampleUITests;
+			productReference = 995313681FDEA2A200A6858D /* WalletExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,6 +204,11 @@
 					9940DF1B1FDDB3F700D98300 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+					};
+					995313671FDEA2A200A6858D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9940DF1B1FDDB3F700D98300;
 					};
 				};
 			};
@@ -171,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				9940DF1B1FDDB3F700D98300 /* WalletExample */,
+				995313671FDEA2A200A6858D /* WalletExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +239,13 @@
 				9940DF2A1FDDB3F700D98300 /* LaunchScreen.storyboard in Resources */,
 				9940DF271FDDB3F700D98300 /* Assets.xcassets in Resources */,
 				9940DF251FDDB3F700D98300 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995313661FDEA2A200A6858D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +284,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		995313641FDEA2A200A6858D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9953136B1FDEA2A200A6858D /* WalletExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9953136E1FDEA2A200A6858D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9940DF1B1FDDB3F700D98300 /* WalletExample */;
+			targetProxy = 9953136D1FDEA2A200A6858D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9940DF231FDDB3F700D98300 /* Main.storyboard */ = {
@@ -388,6 +467,34 @@
 			};
 			name = Release;
 		};
+		9953136F1FDEA2A200A6858D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WalletExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshos.WalletExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalletExample;
+			};
+			name = Debug;
+		};
+		995313701FDEA2A200A6858D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WalletExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshos.WalletExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalletExample;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,6 +512,15 @@
 			buildConfigurations = (
 				9940DF2F1FDDB3F700D98300 /* Debug */,
 				9940DF301FDDB3F700D98300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995313711FDEA2A200A6858D /* Build configuration list for PBXNativeTarget "WalletExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9953136F1FDEA2A200A6858D /* Debug */,
+				995313701FDEA2A200A6858D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
