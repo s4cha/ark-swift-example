@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9907CA641FDE8B4D00573932 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9907CA631FDE8B4D00573932 /* TransactionCell.swift */; };
+		9930C4D71FDECFFB00F1431A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930C4D61FDECFFB00F1431A /* InfoView.swift */; };
 		9940DF201FDDB3F700D98300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940DF1F1FDDB3F700D98300 /* AppDelegate.swift */; };
 		9940DF221FDDB3F700D98300 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940DF211FDDB3F700D98300 /* AccountVC.swift */; };
 		9940DF251FDDB3F700D98300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9940DF231FDDB3F700D98300 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		9995FC4D1FDDBA070077CE0F /* Arrow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9995FC4C1FDDBA070077CE0F /* Arrow.framework */; };
 		9995FC4F1FDDBA090077CE0F /* then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9995FC4E1FDDBA090077CE0F /* then.framework */; };
 		9995FC511FDDBA0C0077CE0F /* ws.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9995FC501FDDBA0C0077CE0F /* ws.framework */; };
+		999A53B71FDECF5D00AE9A21 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999A53B61FDECF5D00AE9A21 /* InfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		9907CA631FDE8B4D00573932 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		9930C4D61FDECFFB00F1431A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		9940DF1C1FDDB3F700D98300 /* WalletExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9940DF1F1FDDB3F700D98300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9940DF211FDDB3F700D98300 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 		9995FC4C1FDDBA070077CE0F /* Arrow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Arrow.framework; path = Carthage/Build/iOS/Arrow.framework; sourceTree = "<group>"; };
 		9995FC4E1FDDBA090077CE0F /* then.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = then.framework; path = Carthage/Build/iOS/then.framework; sourceTree = "<group>"; };
 		9995FC501FDDBA0C0077CE0F /* ws.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ws.framework; path = Carthage/Build/iOS/ws.framework; sourceTree = "<group>"; };
+		999A53B61FDECF5D00AE9A21 /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				9940DF211FDDB3F700D98300 /* AccountVC.swift */,
 				9973D0951FDE7EC2001B713C /* TransactionsVC.swift */,
 				9907CA631FDE8B4D00573932 /* TransactionCell.swift */,
+				999A53B61FDECF5D00AE9A21 /* InfoVC.swift */,
+				9930C4D61FDECFFB00F1431A /* InfoView.swift */,
 				9940DF231FDDB3F700D98300 /* Main.storyboard */,
 				9940DF261FDDB3F700D98300 /* Assets.xcassets */,
 				9940DF281FDDB3F700D98300 /* LaunchScreen.storyboard */,
@@ -286,6 +292,8 @@
 				9940DF201FDDB3F700D98300 /* AppDelegate.swift in Sources */,
 				9907CA641FDE8B4D00573932 /* TransactionCell.swift in Sources */,
 				9973D0961FDE7EC2001B713C /* TransactionsVC.swift in Sources */,
+				9930C4D71FDECFFB00F1431A /* InfoView.swift in Sources */,
+				999A53B71FDECF5D00AE9A21 /* InfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

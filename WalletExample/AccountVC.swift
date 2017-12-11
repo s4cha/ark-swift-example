@@ -29,28 +29,7 @@ class AccountVC: UIViewController {
         account.fetchDelegates().then { delegates in
             print(delegates)
         }
-        
-//        Block.fetchSupply().then { supply in
-//            print(supply)
-//        }
-//
-//        Block.fetchMilestone().then { milestone in
-//            print(milestone)
-//        }
-//
-//        Block.fetchReward().then { reward in
-//            print(reward)
-//        }
-//
-//        Block.fetchFee().then { fee in
-//            print(fee)
-//        }
-//
-//        Block.fetchNethash().then { nethash in
-//            print(nethash)
-//        }
-        
-        
+                
         account.fetchTransactions().then { transactions in
             print(transactions)
         }

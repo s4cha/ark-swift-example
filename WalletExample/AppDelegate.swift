@@ -26,8 +26,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let transactionsVC = TransactionsVC()
         let transactionsNavVC = UINavigationController(rootViewController: transactionsVC)
         
+        // Info
+        let infoVC = InfoVC()
+        let infoNavVC = UINavigationController(rootViewController: infoVC)
+        
         let tabbarController = UITabBarController()
-        tabbarController.viewControllers = [accountNavVC, transactionsNavVC]
+        tabbarController.viewControllers = [accountNavVC, transactionsNavVC, infoNavVC]
         
         window?.rootViewController = tabbarController
         window?.makeKeyAndVisible()
