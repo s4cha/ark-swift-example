@@ -6,3 +6,6 @@ Example iOS App using [ark-swift](https://github.com/s4cha/ark-swift) framework.
 [![Build Status](https://www.bitrise.io/app/5ea45aa4b30279dd/status.svg?token=5J2rQBwLJyo4jEwYySx63Q)](https://www.bitrise.io/app/5ea45aa4b30279dd)
 [![codebeat badge](https://codebeat.co/badges/161591ff-6c15-4469-9b97-59e324a8f0ee)](https://codebeat.co/projects/github-com-s4cha-ark-swift-example-master)
 [![License: MIT](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/s4cha/ark-swift-example/blob/master/LICENSE)
+
+<img src="Images/account.png" width=250>
+<img src="Images/transactions.png" width=250>
