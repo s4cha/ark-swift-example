@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		9907CA641FDE8B4D00573932 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9907CA631FDE8B4D00573932 /* TransactionCell.swift */; };
 		9940DF201FDDB3F700D98300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940DF1F1FDDB3F700D98300 /* AppDelegate.swift */; };
-		9940DF221FDDB3F700D98300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940DF211FDDB3F700D98300 /* ViewController.swift */; };
+		9940DF221FDDB3F700D98300 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940DF211FDDB3F700D98300 /* AccountVC.swift */; };
 		9940DF251FDDB3F700D98300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9940DF231FDDB3F700D98300 /* Main.storyboard */; };
 		9940DF271FDDB3F700D98300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9940DF261FDDB3F700D98300 /* Assets.xcassets */; };
 		9940DF2A1FDDB3F700D98300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9940DF281FDDB3F700D98300 /* LaunchScreen.storyboard */; };
 		9953136B1FDEA2A200A6858D /* WalletExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953136A1FDEA2A200A6858D /* WalletExampleUITests.swift */; };
 		995313731FDEA41400A6858D /* Stevia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995313721FDEA41400A6858D /* Stevia.framework */; };
-		9973D0961FDE7EC2001B713C /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9973D0951FDE7EC2001B713C /* TransactionsViewController.swift */; };
+		9973D0961FDE7EC2001B713C /* TransactionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9973D0951FDE7EC2001B713C /* TransactionsVC.swift */; };
 		997B3C421FDE9DDF00BC84C0 /* Ark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997B3C411FDE9DDF00BC84C0 /* Ark.framework */; };
 		9995FC4B1FDDBA040077CE0F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9995FC4A1FDDBA040077CE0F /* Alamofire.framework */; };
 		9995FC4D1FDDBA070077CE0F /* Arrow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9995FC4C1FDDBA070077CE0F /* Arrow.framework */; };
@@ -50,7 +50,7 @@
 		9907CA631FDE8B4D00573932 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
 		9940DF1C1FDDB3F700D98300 /* WalletExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9940DF1F1FDDB3F700D98300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9940DF211FDDB3F700D98300 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9940DF211FDDB3F700D98300 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
 		9940DF241FDDB3F700D98300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9940DF261FDDB3F700D98300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9940DF291FDDB3F700D98300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		9953136A1FDEA2A200A6858D /* WalletExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletExampleUITests.swift; sourceTree = "<group>"; };
 		9953136C1FDEA2A200A6858D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		995313721FDEA41400A6858D /* Stevia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stevia.framework; path = Carthage/Build/iOS/Stevia.framework; sourceTree = "<group>"; };
-		9973D0951FDE7EC2001B713C /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		9973D0951FDE7EC2001B713C /* TransactionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsVC.swift; sourceTree = "<group>"; };
 		997B3C411FDE9DDF00BC84C0 /* Ark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ark.framework; path = Carthage/Build/iOS/Ark.framework; sourceTree = "<group>"; };
 		9995FC361FDDB6BC0077CE0F /* then.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = then.framework; path = ../Carthage/Build/iOS/then.framework; sourceTree = "<group>"; };
 		9995FC431FDDB9AF0077CE0F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
@@ -118,8 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				9940DF1F1FDDB3F700D98300 /* AppDelegate.swift */,
-				9940DF211FDDB3F700D98300 /* ViewController.swift */,
-				9973D0951FDE7EC2001B713C /* TransactionsViewController.swift */,
+				9940DF211FDDB3F700D98300 /* AccountVC.swift */,
+				9973D0951FDE7EC2001B713C /* TransactionsVC.swift */,
 				9907CA631FDE8B4D00573932 /* TransactionCell.swift */,
 				9940DF231FDDB3F700D98300 /* Main.storyboard */,
 				9940DF261FDDB3F700D98300 /* Assets.xcassets */,
@@ -282,10 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9940DF221FDDB3F700D98300 /* ViewController.swift in Sources */,
+				9940DF221FDDB3F700D98300 /* AccountVC.swift in Sources */,
 				9940DF201FDDB3F700D98300 /* AppDelegate.swift in Sources */,
 				9907CA641FDE8B4D00573932 /* TransactionCell.swift in Sources */,
-				9973D0961FDE7EC2001B713C /* TransactionsViewController.swift in Sources */,
+				9973D0961FDE7EC2001B713C /* TransactionsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

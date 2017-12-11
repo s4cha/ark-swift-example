@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AccountVC.swift
 //  WalletExample
 //
 //  Created by Sacha DSO on 10/12/2017.
@@ -9,7 +9,7 @@
 import UIKit
 import Ark
 
-class ViewController: UIViewController {
+class AccountVC: UIViewController {
 
     @IBOutlet weak var addressLabel: UILabel!
     @IBOutlet weak var balanceLabel: UILabel!

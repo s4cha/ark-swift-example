@@ -17,9 +17,9 @@ class TransactionCell: UITableViewCell {
     let amount = UILabel()
     let confirmations = UILabel()
     let date = UILabel()
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         let stack = UIStackView(arrangedSubviews: [
             id,
@@ -53,6 +53,9 @@ class TransactionCell: UITableViewCell {
         for l in labels {
             l.font = UIFont.systemFont(ofSize: 13)
         }
-
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 }
