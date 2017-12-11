@@ -1,0 +1,4 @@
+framework module Ark {
+    header "Ark-Swift.h"
+    requires objc
+}
