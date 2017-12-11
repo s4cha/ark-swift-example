@@ -43,13 +43,13 @@ class TransactionsViewController: UITableViewController {
         let transaction = transactions[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         if let cell = cell as? TransactionCell {
-            cell.idLabel.text = transaction.id
-            cell.confirmationsLabel.text = transaction.confirmations == nil ? "unknown" : "\(transaction.confirmations!)"
+            cell.id.text = "id: " + transaction.id
+            cell.confirmations.text = transaction.confirmations == nil ? "unknown" : "\(transaction.confirmations!) confirmations"
             let df = DateFormatter()
             df.dateStyle = .short
             df.timeStyle = .short
             
-            cell.dateLabel.text = df.string(from: transaction.date!)
+            cell.date.text = df.string(from: transaction.date!)
         }
         return cell
     }
