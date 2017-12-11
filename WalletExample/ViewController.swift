@@ -74,3 +74,9 @@ extension Float {
         return self / Float(100000000)
     }
 }
+
+extension Int {
+    func toStandard() -> Int {
+        return self / 100000000
+    }
+}

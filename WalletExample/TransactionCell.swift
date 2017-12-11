@@ -12,19 +12,23 @@ import Stevia
 class TransactionCell: UITableViewCell {
 
     let id = UILabel()
-    let confirmationsLabel = UILabel()
+    let from = UILabel()
+    let to = UILabel()
+    let amount = UILabel()
     let confirmations = UILabel()
     let date = UILabel()
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        
         let stack = UIStackView(arrangedSubviews: [
             id,
-            confirmationsLabel,
-            confirmations,
-            date
-            ])
-        
+            from,
+            to,
+            amount,
+            date,
+            confirmations
+        ])
         stack.axis = .vertical
         
         sv(
@@ -34,5 +38,21 @@ class TransactionCell: UITableViewCell {
         stack.fillContainer(20)
         
         id.lineBreakMode = .byTruncatingMiddle
+        from.lineBreakMode = .byTruncatingMiddle
+        to.lineBreakMode = .byTruncatingMiddle
+        
+        let labels = [
+            id,
+            from,
+            to,
+            date,
+            confirmations,
+            amount
+        ]
+        
+        for l in labels {
+            l.font = UIFont.systemFont(ofSize: 13)
+        }
+
     }
 }
